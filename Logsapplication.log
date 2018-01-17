@@ -1,0 +1,79 @@
+"2017:12-11 15:33:35 - Cannot set level: debug,error,fatal,info,trace,warn for ''
+""2017:12-11 15:33:35 - Starting SpringbootApplication on DTC3052 with PID 9736 (E:\Projects\Springboot\target\classes started by vivek.rajyaguru in E:\Projects\Springboot)
+""2017:12-11 15:33:35 - No active profile set, falling back to default profiles: default
+""2017:12-11 15:33:35 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:33:35 IST 2017]; root of context hierarchy
+""2017:12-11 15:33:36 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d360cae0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017:12-11 15:33:36 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2017:12-11 15:33:36 - Tomcat initialized with port(s): 8080 (http)
+""2017:12-11 15:33:36 - Starting service [Tomcat]
+""2017:12-11 15:33:36 - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2017:12-11 15:33:37 - Initializing Spring embedded WebApplicationContext
+""2017:12-11 15:33:37 - Root WebApplicationContext: initialization completed in 1364 ms
+""2017:12-11 15:33:37 - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017:12-11 15:33:37 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017:12-11 15:33:37 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017:12-11 15:33:37 - Mapping filter: 'requestContextFilter' to: [/*]
+""2017:12-11 15:33:37 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2017:12-11 15:33:37 - Mapping servlet: 'dispatcherServlet' to [/]
+""2017:12-11 15:33:37 - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2017:12-11 15:33:37 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:33:35 IST 2017]; root of context hierarchy
+""2017:12-11 15:33:37 - Mapped "{[/userList]}" onto public java.lang.Object com.example.demo.controller.Controller.userList()
+""2017:12-11 15:33:37 - Mapped "{[/login]}" onto public java.lang.Object com.example.demo.controller.Controller.login()
+""2017:12-11 15:33:37 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017:12-11 15:33:37 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017:12-11 15:33:37 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:33:37 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:33:37 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:33:37 - 
+
+Using default security password: eae6f207-9e6d-4572-8b92-b58f1799d2b9
+
+""2017:12-11 15:33:37 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2017:12-11 15:33:37 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f3021cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@c3177d5, org.springframework.security.web.header.HeaderWriterFilter@19058533, org.springframework.security.web.authentication.logout.LogoutFilter@72d0f2b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c853486, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19b047fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aaae508, org.springframework.security.web.session.SessionManagementFilter@18ac53e8, org.springframework.security.web.access.ExceptionTranslationFilter@49a26d19, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5533dc72]
+""2017:12-11 15:33:37 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55e3d6c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7026b7ee, org.springframework.security.web.header.HeaderWriterFilter@36fcf6c0, org.springframework.security.web.authentication.logout.LogoutFilter@713064e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39c1fe0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d23faef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cb8437d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30e6a763, org.springframework.security.web.session.SessionManagementFilter@1aac188d, org.springframework.security.web.access.ExceptionTranslationFilter@5a00eb1e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ae0b770]
+""2017:12-11 15:33:38 - Registering beans for JMX exposure on startup
+""2017:12-11 15:33:38 - Tomcat started on port(s): 8080 (http)
+""2017:12-11 15:33:38 - Started SpringbootApplication in 2.734 seconds (JVM running for 3.397)
+""2017:12-11 15:34:31 - Application shutdown requested.
+""2017:12-11 15:34:31 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:33:35 IST 2017]; root of context hierarchy
+""2017:12-11 15:34:31 - Unregistering JMX-exposed beans on shutdown
+""2017:12-11 15:34:36 - Cannot set level: = debug,error,fatal,info,trace,warn for 'null'
+""2017:12-11 15:34:36 - Starting SpringbootApplication on DTC3052 with PID 8876 (E:\Projects\Springboot\target\classes started by vivek.rajyaguru in E:\Projects\Springboot)
+""2017:12-11 15:34:36 - No active profile set, falling back to default profiles: default
+""2017:12-11 15:34:36 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:34:36 IST 2017]; root of context hierarchy
+""2017:12-11 15:34:37 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b9d14858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017:12-11 15:34:37 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2017:12-11 15:34:37 - Tomcat initialized with port(s): 8080 (http)
+""2017:12-11 15:34:37 - Starting service [Tomcat]
+""2017:12-11 15:34:37 - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2017:12-11 15:34:37 - Initializing Spring embedded WebApplicationContext
+""2017:12-11 15:34:37 - Root WebApplicationContext: initialization completed in 1185 ms
+""2017:12-11 15:34:37 - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017:12-11 15:34:37 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017:12-11 15:34:37 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017:12-11 15:34:37 - Mapping filter: 'requestContextFilter' to: [/*]
+""2017:12-11 15:34:37 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+""2017:12-11 15:34:37 - Mapping servlet: 'dispatcherServlet' to [/]
+""2017:12-11 15:34:37 - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+""2017:12-11 15:34:37 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:34:36 IST 2017]; root of context hierarchy
+""2017:12-11 15:34:37 - Mapped "{[/userList]}" onto public java.lang.Object com.example.demo.controller.Controller.userList()
+""2017:12-11 15:34:37 - Mapped "{[/login]}" onto public java.lang.Object com.example.demo.controller.Controller.login()
+""2017:12-11 15:34:37 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017:12-11 15:34:37 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017:12-11 15:34:37 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:34:37 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:34:38 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017:12-11 15:34:38 - 
+
+Using default security password: 085b99d1-0e36-4ac2-8486-4a758129048e
+
+""2017:12-11 15:34:38 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+""2017:12-11 15:34:38 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a32fb6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7159a5cd, org.springframework.security.web.header.HeaderWriterFilter@5d1b9c3d, org.springframework.security.web.authentication.logout.LogoutFilter@118102ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18ac53e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71cb3139, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6107165, org.springframework.security.web.session.SessionManagementFilter@479f2dc2, org.springframework.security.web.access.ExceptionTranslationFilter@32f0c7f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74aa9c72]
+""2017:12-11 15:34:38 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62891fc8, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dd82486, org.springframework.security.web.header.HeaderWriterFilter@63bde6c2, org.springframework.security.web.authentication.logout.LogoutFilter@7026b7ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4fad6218, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56078cea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a00eb1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@367b22e5, org.springframework.security.web.session.SessionManagementFilter@6ea04618, org.springframework.security.web.access.ExceptionTranslationFilter@58ec7116, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ae95707]
+""2017:12-11 15:34:38 - Registering beans for JMX exposure on startup
+""2017:12-11 15:34:38 - Tomcat started on port(s): 8080 (http)
+""2017:12-11 15:34:38 - Started SpringbootApplication in 2.421 seconds (JVM running for 2.911)
+""2017:12-11 15:35:29 - Application shutdown requested.
+""2017:12-11 15:35:29 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e67a849: startup date [Mon Dec 11 15:34:36 IST 2017]; root of context hierarchy
+""2017:12-11 15:35:29 - Unregistering JMX-exposed beans on shutdown
+"
