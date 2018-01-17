@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.demo.vo.Document",
+      "name": "document",
+      "type": "com.example.demo.vo.Document"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.demo.vo.Document",
+      "name": "document.title",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.vo.Document",
+      "name": "document.type",
+      "type": "java.lang.String"
+    }
+  ]
+}
